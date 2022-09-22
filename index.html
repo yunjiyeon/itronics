@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동영상 배경 헤더 고정</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+KR:wght@400;500;700&family=Sen&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/rwd.css">
+    <script src="https://kit.fontawesome.com/364ad93dfb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="js/main.js"></script> <!-- defer : html 을 모두 읽어드리고 js 적용 -->  
+</head>
+<body>
+    <div id="header_wrap">
+        <header>
+            <h1 class="logo">
+                <a href="#">
+                    <span class="logo01">portfolio</span>
+                    <span class="logo02">iTRONICS</span>
+                </a>
+            </h1>
+            <nav class="menu_container">
+                <ul id="menu">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BUSINESS</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CS CENTER</a></li>
+                    <li><a href="#">STORE</a></li>
+                </ul>
+            </nav>
+            <div class="global_container">
+                <a href="#">EN <i class="fa-solid fa-globe"></i></a>
+            </div>
+            <div class="login_container">
+                <a href="#">LOGIN</a>
+            </div>
+            <a href="#" class="m_menuBtn">
+                <span class="m_menuBtn_line_01"></span>
+                <span class="m_menuBtn_line_02"></span>
+            </a>
+        </header>
+    </div>
+    <main>
+        <div class="main_full">
+            <section class="main_visual">
+                <video autoplay muted playsinline loop poster="itronics_main.jpg" >
+                    <!-- loop 동영상 무한 재생 -->
+                    <source src="img/itronics_main.mp4" type="video/mp4">
+                    이 브라우저에서는 동영상 기능을 지원하지 않습니다.
+                </video>
+                <div class="main_text_container">
+                    <p class="main_text">완전한 자율주행 시대</p>
+                    <div class="main_text_search">
+                        <a href="#">SEARCH</a>
+                    </div>
+                </div>
+            </section>
+            <section class="con1">
+                <h2>Lorem ipsum </h2><br><br>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis mi quis leo scelerisque, vel consequat nibh dignissim. Sed tristique quam augue, vel vehicula elit convallis eu.<br><br>
+                <img src="img/bg_make.jpg" alt="">
+                <br><br>Suspendisse suscipit interdum condimentum. Nunc sed leo sodales, semper nulla nec, euismod nisl. Vivamus pharetra orci nisl, ut euismod ex egestas a. Nunc egestas fringilla libero, non luctus massa pellentesque vitae. Morbi lacinia quis purus vitae commodo. Phasellus venenatis ut sem pulvinar iaculis. Ut a cursus leo. Maecenas ac purus quis eros dignissim luctus. Fusce aliquam malesuada nibh, id volutpat sapien pulvinar non. Proin molestie dolor maximus congue posuere. Sed vitae suscipit orci.<br><br>Duis sit amet tellus diam. Nam vitae orci a felis placerat vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam tempor venenatis hendrerit. Integer faucibus semper eros, vel consequat augue tristique feugiat. </p>
+            </section>
+            <section class="con2">
+                <h2>Suspendisse</h2><br><br>
+                <p>Morbi porttitor ipsum non neque consequat, vitae tristique libero venenatis.Nulla sapien ante, pulvinar at magna sit amet, hendrerit sagittis mi. Aenean convallis, elit nec venenatis mollis, ligula metus ullamcorper ligula, in porttitor metus mauris ac nisi. Pellentesque iaculis neque nec orci pharetra, sed efficitur turpis ultricies.</p><br><br>
+                <img src="img/data_1_20220517175349.png" alt="ibt">
+                <p><br><br>Vivamus facilisis non diam vel maximus. Ut sit amet venenatis mi.<br> Suspendisse ac posuere nulla. Suspendisse sit amet est felis. Duis sit amet mollis urna. Suspendisse at leo non lectus tempus sollicitudin.</p><br><br>
+                <ul>
+                    <li>🚖 Lorem ipsum dolor sit amet</li>
+                    <li>🚔 Maecenas ac purus quis</li>
+                    <li>🚘 vitae tristique libero venenatis</li>
+                    <li>🚍 Pellentesque</li>
+                    <li>🚗 Suspendisse ac posuere nulla</li>
+                </ul><br><br>
+                <p>Nam ultricies erat a elit vulputate, sit amet aliquam felis eleifend. Mauris non mattis sapien. Nunc sodales augue quis nunc faucibus, et laoreet arcu laoreet. In efficitur, ex sit amet hendrerit pellentesque, magna nibh venenatis justo, et sollicitudin nunc velit sit amet lectus.</p><br><br>
+                <img src="img/data_1_20220514231257.png" alt="x1">
+                <p><br><br>Fusce nec pretium lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent maximus tincidunt augue eu euismod. Aenean feugiat felis sit amet enim rutrum, in volutpat lectus dictum. Maecenas ac ornare augue.</p><br><br>
+                <img src="img/data_1_20220517175237.png" alt="x2">
+                <p><br><br>Sed eros nibh, malesuada sit amet dui ut, accumsan auctor dolor. In gravida ac diam et ullamcorper. Pellentesque tempus vitae tortor eu luctus. Nunc et cursus est. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
